@@ -1,7 +1,7 @@
-# My Project
+# Test
 
 ## Description
-Here is a description of my project. As you can see, it is a very good project.
+Here is a description of my project.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,7 +18,7 @@ npm i
 ```
 
 ## Usage
-Here is where I will enter usage info.
+Usage information goes here.
 
 ## Tests
 To run tests, run the following command:
@@ -27,7 +27,7 @@ npm test
 ```
 
 ## Contributing
-Here is where I enter contribution info.
+Contributing info goes here.
 
 ## Licensing
 None
