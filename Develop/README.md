@@ -1,7 +1,7 @@
 # My Project
 
 ## Description
-This is a description of my project
+This is a description of my project. As you can see, it is a very excellent project.
 
 ## Installation
 To install necessary dependencies, run the following command:
@@ -17,6 +17,9 @@ To run tests, run the following command:
 ```
 npm test
 ```
+
+## Contributing
+Open a pull request and I'll review it.
 
 ## Licensing
 No license needed.
