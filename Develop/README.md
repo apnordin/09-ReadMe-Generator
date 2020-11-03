@@ -1,12 +1,12 @@
 # My Project
 
 ## Description
-Here is a description.
+This is a description of my project.
 
 ## Installation
 To install necessary dependencies, run the following command:
 ```
-nmp i
+npm i
 ```
 
 ## Usage
@@ -19,7 +19,8 @@ nmp test
 ```
 
 ## Licensing
-None
+No license needed.
 
-You can find more of my work at apnordin.
+## Questions?
+If you have any questions, feel free to contact me directly at apnordin@gmail.com. You can find more of my work at apnordin.
 
