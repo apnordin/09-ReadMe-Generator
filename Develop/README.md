@@ -9,7 +9,7 @@ Here is my project description.
 * [Tests](#tests)
 * [Contributing](#contributing)
 * [Licensing](#licensing)
-* [Questions](#questions?)
+* [Questions](#questions)
 
 ## Installation
 To install necessary dependencies, run the following command:
