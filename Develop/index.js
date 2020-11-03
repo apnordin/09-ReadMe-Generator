@@ -57,7 +57,7 @@ inquirer
     .then(
         ({ username, projectname, description, install, tests, usage, license, email }) => {
 
-            fs.writeFile("README.md", `# ${projectname}\n\n## Description\n${description}\n\n## Installation\nTo install necessary dependencies, run the following command:\n\`\`\`\n${install}\n\`\`\`\n\n## Usage\n${usage}\n\n## Tests\nTo run tests, run the following command:\n\`\`\`\n${tests}\n\`\`\`\n\n## Licensing\n${license}\n\n## Questions?\nIf you have any questions, feel free to contact me directly at ${email}. You can find more of my work at ${username}.\n\n`, function (err) {
+            fs.writeFile("README.md", `# ${projectname}\n\n## Description\n${description}\n\n## Installation\nTo install necessary dependencies, run the following command:\n\`\`\`\n${install}\n\`\`\`\n\n## Usage\n${usage}\n\n## Tests\nTo run tests, run the following command:\n\`\`\`\n${tests}\n\`\`\`\n\n## Licensing\n${license}\n\n## Questions?\nIf you have any questions, feel free to contact me directly at ${email}. You can find more of my work at [${username}](https://github.com/${username}).\n\n`, function (err) {
                 if (err) {
                     throw err;
                 }
