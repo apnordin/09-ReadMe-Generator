@@ -48,8 +48,9 @@ inquirer
         },
 
         {
-            type: "input",
+            type: "list",
             message: "What kind of license should your project have?",
+            choices: ["MIT", "GPLv2", "Apache,", "GPLv3", "None"],
             name: "license"
         },
 

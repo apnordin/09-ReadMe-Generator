@@ -1,7 +1,7 @@
 # My Project
 
 ## Description
-Here is my project description.
+Here is a description of my project. As you can see, it is a very good project.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,7 +18,7 @@ npm i
 ```
 
 ## Usage
-Here is where I will enter user info.
+Here is where I will enter usage info.
 
 ## Tests
 To run tests, run the following command:
@@ -27,10 +27,10 @@ npm test
 ```
 
 ## Contributing
-Contribution info goes here.
+Here is where I enter contribution info.
 
 ## Licensing
-No license needed.
+None
 
 ## Questions?
 If you have any questions, feel free to contact me directly at apnordin@gmail.com. You can find more of my work at [apnordin](https://github.com/apnordin).
