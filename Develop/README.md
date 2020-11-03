@@ -20,10 +20,12 @@ npm i
 ## Usage
 Install dependencies then run node index.js in your terminal. Answer the prompted questions and a README.md file will be generated. This README file will appear under the Develop folder so as to avoid overwriting the original.
 
+To see a video demonstration, please click [here](https://drive.google.com/file/d/1HEL95gD2FEBp7xJA03rvPfqtl-yIXl_X/view).
+
 ## Tests
 To run tests, run the following command:
 ```
-npm test
+
 ```
 
 ## Contributing
