@@ -1,7 +1,7 @@
-# Test
+# Automatic ReadMe Generator
 
 ## Description
-Here is a description of my project.
+This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. See video for a demonstration.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,7 +18,7 @@ npm i
 ```
 
 ## Usage
-Usage information goes here.
+Install dependencies then run node index.js in your terminal. Answer the prompted questions and a README.md file will be generated. This README file will appear under the Develop folder so as to avoid overwriting the original.
 
 ## Tests
 To run tests, run the following command:
@@ -27,7 +27,7 @@ npm test
 ```
 
 ## Contributing
-Contributing info goes here.
+Open a pull request, and I will review it.
 
 ## Licensing
 None
