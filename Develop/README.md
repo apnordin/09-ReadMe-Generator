@@ -1,17 +1,20 @@
 # My Project
 
 ## Description
-This is the description section.
+This is a description of my project, which is an excellent project as you can see.
 
 ## Installation
 To install necessary dependencies, run the following command:
-npm i
+>npm i
 
 ## Usage
-npm install and then rune node index.js
+npm install then run node.js
+
+## Tests
+>npm test
 
 ## Licensing
-None
+No license needed.
 
 You can find more of my work at apnordin.
 

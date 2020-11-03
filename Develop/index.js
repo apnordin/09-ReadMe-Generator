@@ -31,6 +31,12 @@ inquirer
 
         {
             type: "input",
+            message: "What command should be run to run tests?",
+            name: "tests"
+        },
+
+        {
+            type: "input",
             message: "What should the user know about using the repo?",
             name: "usage"
         },
@@ -43,9 +49,9 @@ inquirer
     ])
 
     .then(
-        ({ username, projectname, description, install, usage, license }) => {
+        ({ username, projectname, description, install, tests, usage, license }) => {
 
-            fs.writeFile("README.md", `# ${projectname}\n\n## Description\n${description}\n\n## Installation\nTo install necessary dependencies, run the following command:\n${install}\n\n## Usage\n${usage}\n\n## Licensing\n${license}\n\nYou can find more of my work at ${username}.\n\n`, function (err) {
+            fs.writeFile("README.md", `# ${projectname}\n\n## Description\n${description}\n\n## Installation\nTo install necessary dependencies, run the following command:\n>${install}\n\n## Usage\n${usage}\n\n## Tests\n>${tests}\n\n## Licensing\n${license}\n\nYou can find more of my work at ${username}.\n\n`, function (err) {
                 if (err) {
                     throw err;
                 }
