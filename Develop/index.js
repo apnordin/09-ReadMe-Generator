@@ -45,41 +45,12 @@ inquirer
     .then(
         ({ username, projectname, description, install, usage, license }) => {
 
-            fs.writeFile("README.md", `# ${projectname}\n`, function (err) {
+            fs.writeFile("README.md", `# ${projectname}\n\n## Description\n${description}\n\n## Installation\nTo install necessary dependencies, run the following command:\n${install}\n\n## Usage\n${usage}\n\n## Licensing\n${license}\n\nYou can find more of my work at ${username}.\n\n`, function (err) {
                 if (err) {
                     throw err;
                 }
             })
 
-            fs.appendFile("README.md", `You can find more of my work at ${username}.\n`, function (err) {
-                if (err) {
-                    throw err;
-                }
-            })
-
-            fs.appendFile("README.md", `${description}\n`, function (err) {
-                if (err) {
-                    throw err;
-                }
-            })
-
-            fs.appendFile("README.md", `${install}\n`, function (err) {
-                if (err) {
-                    throw err;
-                }
-            })
-
-            fs.appendFile("README.md", `${usage}\n`, function (err) {
-                if (err) {
-                    throw err;
-                }
-            })
-
-            fs.appendFile("README.md", `${license}\n`, function (err) {
-                if (err) {
-                    throw err;
-                }
-            })
 
         })
 
